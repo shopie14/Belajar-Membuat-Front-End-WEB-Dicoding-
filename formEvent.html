@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Event</title>
+    <link rel="stylesheet" href="/formEvent.css" />
+  </head>
+  <body>
+    <div class="contents">
+      <h2 align="center">Isi data diri</h2>
+      <div class="formContent">
+        <form id="formDataDiri">
+          <div class="form-element">
+            <label for="nama">Nama:</label><br />
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              placeholder="Nama Anda"
+              required
+            /><br />
+          </div>
+          <div class="form-element">
+            <label for="domisili">Domisili:</label><br />
+            <input
+              type="text"
+              id="domisili"
+              name="domisili"
+              placeholder="Domisili Anda"
+              required
+            /><br />
+          </div>
+          <div class="form-element">
+            <input type="submit" value="Submit Data" />
+          </div>
+        </form>
+      </div>
+      <h3 id="messageAfterSubmit"></h3>
+    </div>
+    <script src="/formEvent.js"></script>
+  </body>
+</html>
